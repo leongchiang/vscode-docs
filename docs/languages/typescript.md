@@ -77,7 +77,7 @@ The content of the tasks.json file looks like this:
 	"version": "0.1.0",
 	"command": "tsc",
 	"isShellCommand": true,
-	"args": ["-p", "."],
+	"args": ["-p", "${workspaceRoot}"],
 	"showOutput": "silent",
 	"problemMatcher": "$tsc"
 }
